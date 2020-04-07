@@ -1,11 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
-
-
-
-
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -18,7 +12,6 @@ import { FooterComponent } from './footer/footer.component';
 import { LoginComponent } from './page/login/login.component';
 import { RegistroComponent } from './page/registro/registro.component';
 import { HomeComponent } from './page/home/home.component';
-import { Header2Component } from './header2/header2.component';
 import { LogComponent } from './log/log.component';
 import { RegComponent } from './reg/reg.component';
 import { PacienteComponent } from './page/paciente/paciente.component';
@@ -58,7 +51,6 @@ import { PageComponent } from './ver/page/page.component';
     LoginComponent,
     RegistroComponent,
     HomeComponent,
-    Header2Component,
     LogComponent,
     RegComponent,
     PacienteComponent,

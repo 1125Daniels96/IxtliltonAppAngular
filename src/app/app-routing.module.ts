@@ -20,14 +20,12 @@ const routes: Routes = [
   {path: 'emergencias', component: EmergenciasComponent},
   {path: 'codigo-qr', component: CodigoQrComponent},
   {path: 'prueba', component: PruebaComponent},
-  /***Si no hay nada me dirije a HOme****/
-  {path: '', component: HomeComponent},
-  /***Codigo para q lo q sea me mande a home**/
-  {path: '**', pathMatch: 'full', redirectTo: ''},
+  {path: 'home', component: HomeComponent},
+  {path: '**', pathMatch: 'full', redirectTo: 'home'},
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes, {useHash: true})],
+  imports: [RouterModule.forRoot(routes, {useHash: false})],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
