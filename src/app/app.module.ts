@@ -12,7 +12,7 @@ import { FooterComponent } from './footer/footer.component';
 import { LoginComponent } from './page/login/login.component';
 import { RegistroComponent } from './page/registro/registro.component';
 import { HomeComponent } from './page/home/home.component';
-import { LogComponent } from './log/log.component';
+import { LogComponent } from './login/log.component';
 import { RegComponent } from './reg/reg.component';
 import { PacienteComponent } from './page/paciente/paciente.component';
 import { Menu2Component } from './menu2/menu2.component';
